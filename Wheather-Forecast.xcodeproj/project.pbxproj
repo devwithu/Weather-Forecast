@@ -13,6 +13,15 @@
 		4D695B3B23E6A47B00CA9DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D695B3A23E6A47B00CA9DC9 /* Assets.xcassets */; };
 		4D695B3E23E6A47B00CA9DC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D695B3D23E6A47B00CA9DC9 /* Preview Assets.xcassets */; };
 		4D695B4123E6A47B00CA9DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D695B3F23E6A47B00CA9DC9 /* LaunchScreen.storyboard */; };
+		4D695B4E23E6A70D00CA9DC9 /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B4D23E6A70D00CA9DC9 /* BackSplash.swift */; };
+		4D695B5023E6ABBA00CA9DC9 /* MainForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B4F23E6ABBA00CA9DC9 /* MainForecast.swift */; };
+		4D695B5223E6AFEB00CA9DC9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B5123E6AFEB00CA9DC9 /* Service.swift */; };
+		4D695B5423E6B70E00CA9DC9 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B5323E6B70D00CA9DC9 /* ForecastViewModel.swift */; };
+		4D695B5623E6BE7500CA9DC9 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B5523E6BE7500CA9DC9 /* TopView.swift */; };
+		4D695B5823E6C1D800CA9DC9 /* MidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B5723E6C1D800CA9DC9 /* MidView.swift */; };
+		4D695B5B23E6C3DE00CA9DC9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B5A23E6C3DE00CA9DC9 /* Helper.swift */; };
+		4D695B5D23E6C75100CA9DC9 /* CurrentTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B5C23E6C75100CA9DC9 /* CurrentTempView.swift */; };
+		4D695B5F23E6DF1700CA9DC9 /* BottomScrollForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D695B5E23E6DF1700CA9DC9 /* BottomScrollForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		4D695B3D23E6A47B00CA9DC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D695B4023E6A47B00CA9DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D695B4223E6A47B00CA9DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D695B4D23E6A70D00CA9DC9 /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
+		4D695B4F23E6ABBA00CA9DC9 /* MainForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainForecast.swift; sourceTree = "<group>"; };
+		4D695B5123E6AFEB00CA9DC9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4D695B5323E6B70D00CA9DC9 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		4D695B5523E6BE7500CA9DC9 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		4D695B5723E6C1D800CA9DC9 /* MidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidView.swift; sourceTree = "<group>"; };
+		4D695B5A23E6C3DE00CA9DC9 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4D695B5C23E6C75100CA9DC9 /* CurrentTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTempView.swift; sourceTree = "<group>"; };
+		4D695B5E23E6DF1700CA9DC9 /* BottomScrollForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomScrollForecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,11 @@
 		4D695B3323E6A47A00CA9DC9 /* Wheather-Forecast */ = {
 			isa = PBXGroup;
 			children = (
+				4D695B4B23E6A64E00CA9DC9 /* ViewModel */,
+				4D695B4A23E6A64700CA9DC9 /* Services */,
+				4D695B4C23E6A66800CA9DC9 /* Data */,
+				4D695B4923E6A64100CA9DC9 /* Views */,
+				4D695B4823E6A63900CA9DC9 /* Helpers */,
 				4D695B3423E6A47A00CA9DC9 /* AppDelegate.swift */,
 				4D695B3623E6A47A00CA9DC9 /* SceneDelegate.swift */,
 				4D695B3823E6A47A00CA9DC9 /* ContentView.swift */,
@@ -73,6 +96,50 @@
 				4D695B3D23E6A47B00CA9DC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D695B4823E6A63900CA9DC9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4D695B5A23E6C3DE00CA9DC9 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4D695B4923E6A64100CA9DC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D695B4D23E6A70D00CA9DC9 /* BackSplash.swift */,
+				4D695B5523E6BE7500CA9DC9 /* TopView.swift */,
+				4D695B5723E6C1D800CA9DC9 /* MidView.swift */,
+				4D695B5C23E6C75100CA9DC9 /* CurrentTempView.swift */,
+				4D695B5E23E6DF1700CA9DC9 /* BottomScrollForecast.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D695B4A23E6A64700CA9DC9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D695B5123E6AFEB00CA9DC9 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4D695B4B23E6A64E00CA9DC9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D695B5323E6B70D00CA9DC9 /* ForecastViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D695B4C23E6A66800CA9DC9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4D695B4F23E6ABBA00CA9DC9 /* MainForecast.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D695B5823E6C1D800CA9DC9 /* MidView.swift in Sources */,
 				4D695B3523E6A47A00CA9DC9 /* AppDelegate.swift in Sources */,
 				4D695B3723E6A47A00CA9DC9 /* SceneDelegate.swift in Sources */,
+				4D695B5023E6ABBA00CA9DC9 /* MainForecast.swift in Sources */,
+				4D695B5F23E6DF1700CA9DC9 /* BottomScrollForecast.swift in Sources */,
+				4D695B5423E6B70E00CA9DC9 /* ForecastViewModel.swift in Sources */,
 				4D695B3923E6A47A00CA9DC9 /* ContentView.swift in Sources */,
+				4D695B4E23E6A70D00CA9DC9 /* BackSplash.swift in Sources */,
+				4D695B5D23E6C75100CA9DC9 /* CurrentTempView.swift in Sources */,
+				4D695B5B23E6C3DE00CA9DC9 /* Helper.swift in Sources */,
+				4D695B5623E6BE7500CA9DC9 /* TopView.swift in Sources */,
+				4D695B5223E6AFEB00CA9DC9 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
